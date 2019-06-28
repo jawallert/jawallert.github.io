@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jacob Wallert's || Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jw.css">
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Jacob Wallert</h1>
+        </header>
+		<ul class="nav">
+			<li><a href = "index.html">Entry</a></li> 
+			<li><a href = "journey.html">College Journey</a></li>
+			<li><a href = "projects.html">Projects</a></li>
+			<li><a href = "links.html">Interesting Links</a></li>
+			<li><a href = "about.html">Who and What?</a></li>
+			<li><a href = "metrology.html">Metrology?</a></li>
+			<li><a href = "contact.html" class="active">Contact</a></li>
+		</ul>
+        <div id="contact"><div id="journey-layer"></div></div>
+        <div class="bodymain3">
+            <h2 class="contacth2">Send Me Something!</h2>
+			<p>
+			You can email me directly at <a href="mailto:jawaller@asu.edu">jawaller@asu.edu</a> or use the form below!
+			</p>
+			<i>* is a required field</i>
+			
+			<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+				<label for="firstName">* First Name </label>
+				<input required="required" type="text" name="firstName" id="firstName">
+				<label for="lastName">* Last Name </label>
+				<input required="required" type="text" name="lastName" id="lastName">
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email">
+				<label for="typeof">* Intent of Message</label>
+				<select required="required" name="typeof" id="typeof">
+					<option value="">Pick one</option>
+					<option value="business">Business</option>
+					<option value="feedback">Feedback</option>
+					<option value="projects">Projects</option>
+					<option value="comments">General Comments</option>
+				</select>
+				<label for="content">* Comments or message:</label>
+				<textarea name="content" cols="80" rows="10" id="content"></textarea><br>
+				<input class="submit" type="submit">
+			</form>
+		</div>
+        <footer>
+            Copyright &copy; 2019 Jacob Wallert<br>
+        </footer>
+    </div>
+</body>
+</html>
